@@ -12,9 +12,13 @@ h2,
 h3 {
   font-family: "Noto Serif", serif;
 }
+
 /* Shared styles */
 .highlight {
   color: #e95a08;
+}
+.text-color {
+  color: rgba(0, 0, 0, 0.5);
 }
 /* Navbar */
 .navbar {
@@ -37,6 +41,27 @@ h3 {
 .nav-links a {
   text-decoration: none;
 }
+
+/* Banner */
+.banner {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text {
+  width: 570px;
+  height: 299px;
+  margin-top: 162px;
+  padding: 20px;
+}
+
+.banner-image img {
+  width: 570px;
+  height: 355px;
+}
+
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
   body {
