@@ -51,7 +51,6 @@ h3 {
 }
 
 .banner-text {
-  width: 570px;
   height: 299px;
   margin-top: 162px;
   padding: 20px;
@@ -68,7 +67,8 @@ h3 {
     overflow-x: hidden;
     width: 100%;
   }
-  .navbar {
+  .navbar,
+  .banner {
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
@@ -76,4 +76,13 @@ h3 {
   .nav-links li:not(.cart) {
     display: none;
   }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+}
+.banner-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
