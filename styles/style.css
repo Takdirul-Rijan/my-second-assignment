@@ -37,3 +37,18 @@ h3 {
 .nav-links a {
   text-decoration: none;
 }
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+  .nav-links li:not(.cart) {
+    display: none;
+  }
+}
